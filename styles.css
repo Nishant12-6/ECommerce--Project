@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+
+}
+
+.form-input{
+       margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        height: 35px;
+        border: 2px solid black;
+
+}
+
+.form-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+        padding-left: 10px;
+        height: 35px;
+        border: 2px solid black;
+        cursor:pointer;
+
+}
