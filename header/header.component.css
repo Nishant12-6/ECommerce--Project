@@ -1,0 +1,77 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav h1 a {
+    color: orange;
+    margin: 0px;
+    font-size: 50px;
+    margin-left: -40px;
+    
+
+}
+
+.nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.nav li {
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: 5%;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.nav .input-search {
+
+    margin-top: 10px;
+    flex: 1;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+
+}
+
+.nav .input-search input {
+
+    flex: 1;
+    color: blueviolet;
+    border: 2px solid black;
+    height: 36px;
+    border-right: 0px;
+    border: 2px solid black;
+
+
+
+}
+
+
+.nav .input-search button {
+
+    color: blueviolet;
+    border: 2px solid black;
+    height: 41px;
+    border-left: 0px;
+}
+
+h1 a {
+    color:orange;
+    text-decoration: none;
+}
+
+ul li a {
+cursor: pointer;
+}
+
